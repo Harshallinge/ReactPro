@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    /* Navigation bar */
+    .navbar {
+      background-color: #333;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    /* Header section */
+    .header {
+      text-align: center;
+      margin: 40px 0 20px 0;
+    }
+
+    .header h1 {
+      font-size: 36px;
+      font-weight: 700;
+      color: #222;
+    }
+
+    .header p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    /* Card container */
+    .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+    }
+
+    /* Individual card */
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 250px;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .card h3 {
+      font-size: 22px;
+      margin-top: 15px;
+      color: #222;
+    }
+
+    .card p {
+      font-size: 15px;
+      color: #555;
+      margin: 10px 0;
+    }
+
+    .card .price {
+      font-weight: bold;
+      font-size: 18px;
+      color: #000;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <a href="#">Home</a>
+  </div>
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Welcome to the Home Page</h1>
+    <p>Explore different categories of e-commerce products below!</p>
+  </div>
+
+  <!-- Cards Section -->
+  <div class="card-container">
+    
+    <!-- Electronics -->
+    <div class="card">
+      <img src="images/Electronics.png" alt="Electronics">
+      <h3>Electronics</h3>
+      <p>Shop the latest electronics, from smartphones to laptops.</p>
+      <div class="price">₹50,000</div>
+    </div>
+
+    <!-- Fashion -->
+    <div class="card">
+      <img src="images/fashion.jpg" alt="Fashion">
+      <h3>Fashion</h3>
+      <p>Trendy clothes and accessories for every style.</p>
+      <div class="price">₹1999</div>
+    </div>
+
+    <!-- Home Appliances -->
+    <div class="card">
+      <img src="images/homeappliances.jpg" alt="Home Appliances">
+      <h3>Home Appliances</h3>
+      <p>Quality appliances to enhance your home comfort.</p>
+      <div class="price">₹2599</div>
+    </div>
+
+    <!-- Toys -->
+    <div class="card">
+      <img src="images/toys.png" alt="Toys">
+      <h3>Toys</h3>
+      <p>Fun and safe toys for children of all ages.</p>
+      <div class="price">₹199</div>
+    </div>
+
+  </div>
+
+</body>
+</html>
